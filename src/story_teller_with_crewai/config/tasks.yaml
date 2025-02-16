@@ -1,0 +1,17 @@
+outline_task:
+  description: "Generate a creative story outline based on the given prompt: \n\n{prompt}."
+  expected_output: "An outline of a story which includes the main plot points and key events that will take place in the story."
+  agent: "story_planner_agent"
+
+write_task:
+  description: "Expand the outline into a creative story"
+  expected_output: "A creative story that is engaging, well-written and not more than 500 words. The story should be based on the outline provided and should include all the key plot points and events mentioned in the outline."
+  agent: "story_writer_agent"
+
+summarize_task:
+  description: "Summarize the story into a concise overview"
+  expected_output: "A concise overview of the story capturing the key elements of the story."
+  agent: "story_summarizer_agent"
+
+
+
